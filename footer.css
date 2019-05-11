@@ -1,0 +1,45 @@
+
+.shan{
+    padding:20px 28px;
+}
+.shan1{
+    padding:25px 0 20px 45px;
+}
+.shan1>img{
+    width:46px;
+    height:46px;
+}
+.shan>span{
+    font-size:20px;
+}
+.shan>p{
+    font-size:14px;
+}
+a,a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.footimg{
+    width:30px;
+    height:30px;
+    margin-left:8px;
+}
+
+.footpad{
+   padding:54px 28px;
+}
+.footerweima{
+    width:110px;
+    height:110px;
+    margin-top:48px;
+}
+.footfont{
+    font-size:12px;
+}
+.pwidth{
+    width:110px;
+}
+.bg-black{
+    background-color:#000;
+    color:#fff;
+}

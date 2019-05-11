@@ -1,0 +1,71 @@
+/*Õ¯“≥±≥æ∞ ”∆µ*/
+body{
+    margin:0;
+    padding:0;
+    font-family:"PingFangSC-Light", "Helvetica Neue", Helvetica, Arials;
+
+}
+video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    z-index:-9999;
+    -webkit-filter:grayscale(10%);
+}
+
+
+.my_btn{
+    background-color:transparent;
+    color:#fff;
+    font-size:28px !important;
+}
+.my_btn:hover{
+    color:#0aa1ed;
+    background-color:#fff;
+}
+
+@media screen and (min-width:992px){
+    .bg_font{
+        margin:auto;
+        text-align:center;
+        color:#fff;
+        margin-top:25%;
+        font-size:28px !important;
+    }
+    h1{margin-top:50px !important;margin-bottom:50px !important;}
+    .logo{
+        color:#fff;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .bg_font{
+        margin:auto;
+        text-align:center;
+        color:#fff;
+        margin-top:35%;
+        font-size:22px !important;
+    }
+    h1{margin-top:50px !important;margin-bottom:50px !important;}
+    .logo{
+        color:#000;
+    }
+}
+@media screen and (max-width:767px){
+    .bg_font{
+        margin:auto;
+        text-align:center;
+        color:#fff;
+        margin-top:50%;
+        font-size:16px !important;
+    }
+    h1{margin-top:30px !important;margin-bottom:10px !important;}
+    .logo{
+        color:#000;
+    }
+}
+
+

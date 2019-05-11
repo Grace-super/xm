@@ -1,0 +1,159 @@
+
+/*头部分 左右内边距*/
+.nav-width{
+    padding-left:10%;
+    padding-right:10%;
+}
+.bg-black{
+    background-color:#000;
+}
+/*头部分二维码*/
+.top-erweima div{
+    left: -999em;
+    position: absolute;
+    overflow: visible;
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+    z-index: 999;}
+.top-erweima img{
+    margin-left: 15px;
+    width:98%;
+    height:auto;
+}
+.top-erweima:hover div{left:auto;cursor:pointer;}
+.top-erweima,span{
+    color:#fff !important;
+    font-size:14px;
+}
+/*上部分右侧链接*/
+.login>a{
+    color:#fff !important;
+    font-size:14px;
+    text-decoration:none;
+}
+/*导航栏 搜索按钮*/
+.search>button{
+    width: 66px;
+    height: 36px;
+    border: none;
+    background: #191919 url(../image/header/search.png) no-repeat center;
+    background-size: 21px;
+    outline: 0;
+    cursor: pointer;
+}
+/*导航栏 输入框*/
+.search>input{
+    width: 80%;
+    height: 36px;
+    font-size: 14px;
+    line-height: 22px;
+    border:2px solid #000;
+    padding: 4px 10px;
+    box-sizing: border-box;
+}
+.search>input:focus{outline:none !important;}
+/*导航栏 logo*/
+.nav-image{
+    margin-top:30px;
+}
+/*导航栏 搜索框*/
+.search{
+    margin-top:60px;
+}
+/*导航栏 购物车*/
+.nav-cart>a>i {
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: 0 auto;
+    background: url(../image/header/cart.png) no-repeat;
+    background-size: contain;
+    margin-top:50px;
+}
+/*水平导航 字体*/
+.nav-color{
+    color:#000;
+    font-size:14px;
+    font-weight: bold;
+}
+/*水平导航 悬停效果*/
+.nav-active, .nav-color:hover{
+    color:#f00;
+    border-bottom:2px solid #f00;
+    text-align:center;
+}
+/*右侧固定导航栏*/
+.right{
+    background:#fff;
+    width:80px;
+    height:190px;
+    position:fixed;
+    top:50%;
+    /*padding:10px;*/
+    right:-38px;
+    float:right;
+    text-align:center;
+    transform: translateY( -50%);
+    transform: translateX(-50%);
+}
+.right1{
+    background:url(../image/header/cart2.png) no-repeat center 0;
+}
+div.right1:hover,div.right1:active{
+    background:url(../image/header/cart2r.png) no-repeat center 0;
+    cursor:pointer;
+}
+a>p{
+    font-size:14px;
+    color:#000;
+    text-decoration:none;
+}
+div>a>p:hover{
+    color:#f00 !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.right2{
+    background:url(../image/header/phone.png) no-repeat center 0;
+}
+div.right2:hover,div.right2:active{
+    background:url(../image/header/phoner.png) no-repeat center 0;
+    cursor:pointer;
+}
+.right3{
+    background:url(../image/header/turn.png) no-repeat center 0;
+}
+div.right3:hover,div.right3:active{
+    background:url(../image/header/turnr.png) no-repeat center 0;
+    cursor:pointer;
+}
+/*右侧固定导航栏 二维码*/
+.right-erweima div{
+    right: -999em;
+    position: absolute;
+    overflow: visible;
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+    z-index: 100;
+}
+.right-erweima img{
+    margin-right:50px;
+    width:98%;
+    height:auto;
+    background-position: 0 -130px;
+    position: relative;
+}
+.right-erweima:hover div{
+    cursor:pointer;
+    display: block;
+    position: absolute;
+    right: 78px;
+    top: 15px;
+}
+.right2>p{
+    font-size:14px;
+    color:#000;
+}
